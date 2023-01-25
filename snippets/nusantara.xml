@@ -3,13 +3,13 @@
 
   <!-- Nusantara remote -->
   <remote  name="nad"
-           fetch="ssh://git@github.com/Nusantara-ROM/"
+           fetch="https://github.com/Nusantara-ROM/"
            revision="12.1"
            sync-j="16" />
 
   <!-- Device remote -->
   <remote  name="device"
-           fetch="ssh://git@github.com/NusantaraROM-devices/"
+           fetch="https://github.com/NusantaraROM-devices/"
            revision="12" />
 
   <!-- Github remote -->
@@ -18,7 +18,7 @@
 
   <!-- Github SSH remote -->
   <remote  name="ghpriv"
-           fetch="ssh://git@github.com/"
+           fetch="https://github.com/"
            />
 
   <remote  name="pe"
